@@ -11,14 +11,14 @@ It can be installed on Ubuntu via
     sudo apt-get update
     sudo apt-get install neovim
 
+clone this repo to 
+	
+	~/.config/nvim
+
 This configuration uses Packer to download dependencies
 
 these dependencies are then found here
 ~/.local/share/nvim/site/pack/packer/start/
-
-Run this command to set where the config should get jar dependencies
-	
-	export JDTLS_DEP=$(pwd)/jdtls_dependencies
 
 To install Packer 
     
