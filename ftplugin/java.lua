@@ -19,3 +19,8 @@ local config = {
     }
 }
 jdtls.start_or_attach(config)
+
+vim.keymap.set("n","<leader>tc", "<Cmd> lua require 'jdtls'.test_class() <CR>")
+vim.keymap.set("n","<leader>tm", "<Cmd> lua require 'jdtls'.test_nearest_method() <CR>")
+vim.keymap.set("n","<leader>br", "<Cmd> DapToggleBreakpoint <CR>")
+vim.keymap.set("n","<leader>c", "<Cmd> DapContinue <CR>")
